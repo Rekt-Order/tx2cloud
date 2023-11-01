@@ -3,7 +3,7 @@ import os
 
 def extract_nouns_from_text(input_text):
     # MeCabのインスタンスを作成
-    m = MeCab.Tagger("-Ochasen")
+    m = MeCab.Tagger()
 
     # テキストを行に分割
     subjects = input_text.splitlines()
