@@ -10,7 +10,7 @@ def generate_wordcloud_image(input_text):
         height=600,
         max_words=200,
         max_font_size=100,
-        font_path="C:\\Users\\ns9999\\python\\DelaGothicOne-Regular.ttf",
+        font_path="DelaGothicOne-Regular.ttf",
         colormap="tab10",
         stopwords=set(),
         contour_width=3,
